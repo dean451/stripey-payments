@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-
-
+ 
 # Require a speicific ruby version
 ruby '2.1.1'
 
@@ -25,6 +24,14 @@ gem 'figaro'
 
 # Add letter opener for handling emails in development
 gem 'letter_opener', group: :development
+
+# Add activeAdmin to generate an admin interface
+
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+# Add devise to supoort login for activeAdmin
+
+gem 'devise'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
